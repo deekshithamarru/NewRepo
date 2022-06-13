@@ -1,0 +1,11 @@
+DECLARE
+n integer:=8;
+s integer:=1;
+BEGIN
+WHILE n>0 LOOP
+s:=s*n;
+n:=n-1;
+END LOOP;
+dbms_output.put_line(s);
+END;
+/
